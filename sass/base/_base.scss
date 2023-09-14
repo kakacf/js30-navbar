@@ -1,0 +1,31 @@
+
+html {
+    /* 
+        https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
+        browser default font size: 16px
+        10px/16px = 0.625 -> 62.5% 
+        百分比可以套用所有 root px，因為 root px 會變動
+        rem = root font size 
+    */
+    /* 1rem  = 10px */
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 3rem;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-color: $color-primary;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    cursor: pointer;
+}

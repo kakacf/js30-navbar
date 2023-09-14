@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap");
+html {
+  /* 
+      https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
+      browser default font size: 16px
+      10px/16px = 0.625 -> 62.5% 
+      百分比可以套用所有 root px，因為 root px 會變動
+      rem = root font size 
+  */
+  /* 1rem  = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 3rem;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  background-color: #f3ebe3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.navigation {
+  font-size: 1.6rem;
+  color: #6c6c6c;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.navigation__logo {
+  margin-right: 2rem;
+}
+.navigation__nav {
+  flex: 1;
+}
+.navigation__list {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.navigation__item {
+  cursor: pointer;
+  margin-right: 2rem;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.navigation__item:hover {
+  color: #beb9b8;
+}
+.navigation__signArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__free {
+  background-color: #133416;
+  color: #fff;
+  border: 1px solid #6c6c6c;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.navigation__free:hover {
+  background-color: #54ac7d;
+  border: 1px solid #beb9b8;
+}
+
+/*# sourceMappingURL=style.css.map */

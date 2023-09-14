@@ -1,0 +1,62 @@
+.navigation {
+    font-size: 1.6rem;
+    color: $color-dark-grey;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem 1rem;
+
+    &__logo {
+        margin-right: 2rem;
+
+    }
+
+    &__nav {
+        flex: 1;
+
+    }
+
+    &__list {
+        list-style: none;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        cursor: pointer;
+        margin-right: 2rem;
+        white-space: nowrap;
+        transition: all 0.3s;
+
+        &:hover {
+            color: $color-light-grey;
+        }
+    }
+
+
+    &__signArea {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__free {
+        background-color: $color-dark-green;
+        color: $color-white;
+        border: 1px solid $color-dark-grey;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: $color-light-green;
+            border: 1px solid $color-light-grey;
+            
+        }
+    }
+    
+}
