@@ -8,8 +8,7 @@ html {
       百分比可以套用所有 root px，因為 root px 會變動
       rem = root font size 
   */
-  /* 1rem  = 10px */
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1rem  = 10px */
 }
 
 body {

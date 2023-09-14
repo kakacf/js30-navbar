@@ -31,3 +31,7 @@ This challenge is best coupled with Day 22 of Wes Bos's [Javascript30](https://j
 ### Fonts Used
 
 https://fonts.google.com/specimen/Inter
+
+
+### Color Picker
+https://imagecolorpicker.com/
