@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;800&display=swap');
 // @import "../node_modules/normalize.css/normalize.css";
 
+// abstracts
 @import "abstracts/_variables.scss";
 
+// base
 @import "base/_base.scss";
 
+// layout
 @import "layout/_navigation.scss";
+@import "layout/_content.scss";
+@import "layout/_footer.scss";

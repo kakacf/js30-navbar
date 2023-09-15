@@ -1,0 +1,37 @@
+.content {
+    flex: 2.5;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+ 
+    &__text {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 5rem 0;
+        gap: 5%;
+    }
+
+    &__btn {
+        margin: 0.8rem 0;
+    }
+
+    &__icon {
+        margin: 0 1rem;
+    }
+
+    &__review {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: end;
+        &__hero {
+            width: 32rem;
+            height: 38rem;
+        }
+    }
+}

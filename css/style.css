@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;800&display=swap");
 html {
   /* 
       https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
@@ -24,10 +24,41 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .btn {
   cursor: pointer;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #133416;
+  color: #fff;
+  border: 1px solid #6c6c6c;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #54ac7d;
+  border: 1px solid #beb9b8;
+}
+
+.text__title {
+  font-size: 4.8rem;
+  font-weight: 800;
+}
+.text__title--dark {
+  color: #251c3b;
+}
+.text__title--yellow {
+  color: #f7b300;
+}
+.text__sub {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #6c6c6c;
 }
 
 .navigation {
@@ -62,22 +93,62 @@ body {
 .navigation__item:hover {
   color: #beb9b8;
 }
-.navigation__signArea {
+.navigation__sign-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navigation__free {
-  background-color: #133416;
-  color: #fff;
-  border: 1px solid #6c6c6c;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  transition: all 0.3s;
+
+.content {
+  flex: 2.5;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
 }
-.navigation__free:hover {
-  background-color: #54ac7d;
-  border: 1px solid #beb9b8;
+.content__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5rem 0;
+  gap: 5%;
+}
+.content__btn {
+  margin: 0.8rem 0;
+}
+.content__icon {
+  margin: 0 1rem;
+}
+.content__review {
+  display: flex;
+  align-items: center;
+}
+.content__img {
+  display: flex;
+  justify-content: end;
+}
+.content__img__hero {
+  width: 32rem;
+  height: 38rem;
+}
+
+.footer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__brand {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.footer__brand__img {
+  display: block;
+  width: 20rem;
+  height: 10rem;
+  margin: 0.5rem 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

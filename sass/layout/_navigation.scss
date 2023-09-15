@@ -8,12 +8,10 @@
 
     &__logo {
         margin-right: 2rem;
-
     }
 
     &__nav {
         flex: 1;
-
     }
 
     &__list {
@@ -37,26 +35,12 @@
         }
     }
 
-
-    &__signArea {
+    &__sign-area {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
-    &__free {
-        background-color: $color-dark-green;
-        color: $color-white;
-        border: 1px solid $color-dark-grey;
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
-        transition: all 0.3s;
-
-        &:hover {
-            background-color: $color-light-green;
-            border: 1px solid $color-light-grey;
-            
-        }
-    }
     
 }
+
+
