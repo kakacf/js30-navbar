@@ -93,10 +93,64 @@ body {
 .navigation__item:hover {
   color: #beb9b8;
 }
+.navigation__item__products {
+  position: relative;
+}
+.navigation__item__products:hover .navigation__popup {
+  display: block;
+}
 .navigation__sign-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navigation__popup {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  top: 4rem;
+  left: -2.5rem;
+  width: 35rem;
+  border-radius: 1.8rem;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
+.popup {
+  width: 100%;
+}
+.popup__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: #beb9b8;
+}
+.popup__header__close {
+  display: none;
+  cursor: pointer;
+  width: 2rem;
+}
+.popup__item {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.popup__item__text__content {
+  margin-left: 0.5rem;
+  white-space: normal;
+}
+.popup__item__text {
+  margin-bottom: 0.5rem;
+}
+.popup__item__title {
+  color: #251c3b;
+}
+.popup__item__sub {
+  color: #6c6c6c;
 }
 
 .content {
