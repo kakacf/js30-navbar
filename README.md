@@ -28,6 +28,8 @@ If you want more real-time communication, you can visit our community on [Slack]
 
 This challenge is best coupled with Day 22 of Wes Bos's [Javascript30](https://javascript30.com) course. 
 
+### Codewell
+https://www.codewell.cc/challenges/javascript30-navbar--623f19001fa95910c7bf998e
 ### Fonts Used
 
 https://fonts.google.com/specimen/Inter
