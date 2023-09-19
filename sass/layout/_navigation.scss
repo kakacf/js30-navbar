@@ -2,16 +2,12 @@
     font-size: 1.6rem;
     color: $color-dark-grey;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem 1rem;
 
     &__logo {
         margin-right: 2rem;
-    }
-
-    &__nav {
-        flex: 1;
     }
 
     &__list {
@@ -50,6 +46,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    &__menu {
+        cursor: pointer;
+        display: none;
     }
 
     &__popup {
@@ -110,17 +111,5 @@
     }
 }
 
-// @media screen and (max-width: 768px) {
-//     .navigation {
-//         &__nav {
-//             display: none;
-//         }
-//         &__sign-area {
-//             display: none;
-//         }
-//     }
-
-
-// }
 
 

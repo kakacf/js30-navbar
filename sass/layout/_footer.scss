@@ -5,16 +5,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 
     &__brand {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         margin-top: 2rem;
 
         &__img {
             display: block;
-            width: 20rem;
-            height: 10rem;
+            width: 18rem;
+            height: 8rem;
             margin: 0.5rem 2rem;
         }
     }
